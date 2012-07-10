@@ -8,8 +8,8 @@ MANIFEST			This list of files
 MANIFEST.SKIP
 META.yml
 README
-t/pod.t
-t/pod_coverage.t
 xt/consume_buffering.t
+xt/pod.t
+xt/pod_coverage.t
 Makefile.PL
 META.json
