@@ -12,5 +12,10 @@ my $build = Module::Build->new(
         'IO::Select'            => '0',
         'Class::Accessor::Fast' => '0',
     },
+    meta_merge     => {
+        resources => {
+            repository  => 'https://github.com/jasontang/net-stomp'
+        }
+    },
 );
 $build->create_build_script;
